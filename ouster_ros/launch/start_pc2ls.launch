@@ -1,5 +1,5 @@
 <launch>
-    <node pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan" name="pointcloud_to_laserscan">
+    <node pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" name="pointcloud_to_laserscan">
       <remap from="cloud_in" to="/os1_cloud_node/points"/>
       <remap from="scan" to="/os1_cloud_node/scan"/>
       <rosparam>
