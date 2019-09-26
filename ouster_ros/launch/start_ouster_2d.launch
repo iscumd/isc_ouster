@@ -39,7 +39,7 @@
   
   
     <!-- 2D Laserscan Conversion -->
-    <include file="$(find isc_ouster)/ouster_ros/launch/start_pc2ls.launch" />
+    <include file="$(find ouster_ros)/launch/start_pc2ls.launch" />
 
     
 </launch>
